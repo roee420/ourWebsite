@@ -1,0 +1,164 @@
+header {
+    margin: 0;
+    padding: 0px;
+    height: 65px;
+    background-color: black;
+}
+
+.logo {
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    font-weight: normal;
+    line-height: 65px;
+    margin-left: 30px;
+    margin-top: 0px;
+    float: left;
+}
+nav {
+   
+    float: right;
+        
+}
+
+nav .link {
+    line-height: 65px;
+    color: rgb(27, 177, 177);
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15pt;
+}
+
+main{
+    background: #3345;
+    width: 100%;
+    height: calc(100% - 65px);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    border: 1px solid black;
+    box-sizing: border-box;
+    height:33.33%;
+    position: relative;
+    font-family: 'Indie Flower', cursive;
+}
+
+section article {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+
+}
+
+h3 {
+    font-family: 'Long Cang', cursive;
+    color: #ffff;
+    font-weight: 300;
+    font-size: 18pt;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 12pt;
+    margin-top: 3px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.readmore {
+    width: 90px;
+    height: 35px;
+    background-color: white;
+    text-decoration: none;
+    font-family: 'Long Cang', cursive;
+    display: block;
+    text-align: center;
+    color: black;
+    font-size: 15pt;
+    line-height: 35px;
+}
+
+.r1s1 {
+    width: calc(100% / 12 * 7);
+    background-size: cover;
+}
+
+.r1s2 {
+    width: calc(100% / 12 * 5);
+    background-size: cover;
+}
+
+.r2s1 {
+    width: calc(100% / 12 * 5);
+    background-size: cover;
+}
+
+.r2s2 {
+    width: calc(100% / 12 * 3);
+    background-color: #784D2B;
+    background-size: cover;
+}
+
+.r2s3 {
+    width: calc(100% / 12 * 4);
+    background-size: cover;
+}
+
+.r3s1 {
+    width: calc(100% / 12 * 3);
+    background-size: cover;
+    background: #4C422A;
+}
+
+.r3s2 {
+    width: calc(100% / 12 * 3);
+    background-size: cover;
+
+}
+
+.r3s3 {
+    width: calc(100% / 12 * 6);
+    background-size: cover;
+}
+
+.nigga {
+    width: 1100px;
+}
+
+img {
+    height: 295px;
+}
+
+.nigga2 {
+    width: 785px;
+}
+
+.nigga3 {
+    width: 785px;
+}
+
+.nigga4 {
+    width: 628px;
+}
+
+.nigga5 {
+    width: 471px;
+}
+
+.nigga6 {
+    width: 941px;
+}
+
+
+
+@media all and (max-width: 4000px) and  (orientation: landscape){
+
+}
